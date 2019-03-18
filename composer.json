@@ -1,0 +1,21 @@
+{
+    "name": "jzxyst/json-util",
+    "type": "library",
+    "description": "JSON Utility.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shohei Mizuno",
+            "email": "jzxyst@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jzxyst\\": "src/"
+        }
+    }
+}
