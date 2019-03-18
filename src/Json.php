@@ -5,7 +5,7 @@ namespace Jzxyst;
 class Json
 {
     /**
-     * JSONPからJSONへ変換する
+     * Convert JSONP to JSON.
      * @param $jsonp
      * @return string|string[]|null
      */
