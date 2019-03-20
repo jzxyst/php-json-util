@@ -1,6 +1,6 @@
 <?php
 
-namespace Jzxyst;
+namespace Jzxyst\Util;
 
 class Json
 {

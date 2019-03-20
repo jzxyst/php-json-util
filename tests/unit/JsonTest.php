@@ -8,7 +8,7 @@ class JsonTest extends TestCase
     public function test_convertJsonpToJson()
     {
         $jsonp = 'callback({"err": 0,"key": ["0","1","2"]})';
-        $json = \Jzxyst\Json::convertJsonpToJson($jsonp);
+        $json = \Jzxyst\Util\Json::convertJsonpToJson($jsonp);
         $array = json_decode($json, true);
         $this->assertEquals('{"err": 0,"key": ["0","1","2"]}', $json);
         $this->assertEquals('0', $array['err']);
